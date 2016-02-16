@@ -9,7 +9,6 @@ public class BullsAndCows {
 		int[] random = numberGenerator();
 		System.out.println("The computer has chosen a 4 digit number (no digits in the number repeat).\n"
 				+ "You will get a bull for every guessed number on it's position and a cow for every guessed number which is not on its place. Try to guess the number.");
-		System.out.println("The number of the computer is: " + Arrays.toString(random));
 		int cows = 0;
 		int bulls = 0;
 		boolean guessed = false;
